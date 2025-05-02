@@ -1,0 +1,9 @@
+// src/pages/Products.jsx
+export default function Products() {
+    return (
+      <div>
+        <h1>Products Page</h1>
+        {/* Your product listing will go here */}
+      </div>
+    );
+  }
