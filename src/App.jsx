@@ -38,4 +38,10 @@ function App() {
   );
 }
 
+useEffect(() => {
+  fetch("http://localhost:3001/drugs")
+    .then(res => res.json())
+    .then(data => setDrugs(data));
+}, []);
+
 export default App
