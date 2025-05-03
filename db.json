@@ -1,0 +1,280 @@
+{
+    "drugs": [
+        {
+            "drugs": [
+              {
+                "id": 1,
+                "name": "Aspirin",
+                "generic_name": "Acetylsalicylic Acid",
+                "uses": ["Pain relief", "Fever reduction", "Anti-inflammatory"],
+                "dosage": "325-650 mg every 4-6 hours",
+                "side_effects": ["Stomach bleeding", "Ringing in ears", "Allergic reactions"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/aspirin.jpg"
+              },
+              {
+                "id": 2,
+                "name": "Ibuprofen",
+                "generic_name": "Ibuprofen",
+                "uses": ["Pain relief", "Fever reduction", "Arthritis"],
+                "dosage": "200-400 mg every 4-6 hours",
+                "side_effects": ["Stomach pain", "Kidney issues", "Dizziness"],
+                "image": "https://www.drugs.com/images/pills/fio/IPR02010/ibuprofen.jpg"
+              },
+              {
+                "id": 3,
+                "name": "Paracetamol (Acetaminophen)",
+                "generic_name": "Acetaminophen",
+                "uses": ["Pain relief", "Fever reduction"],
+                "dosage": "500-1000 mg every 4-6 hours",
+                "side_effects": ["Liver damage (overdose)", "Skin rash"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/paracetamol.jpg"
+              },
+              {
+                "id": 4,
+                "name": "Amoxicillin",
+                "generic_name": "Amoxicillin",
+                "uses": ["Bacterial infections"],
+                "dosage": "250-500 mg every 8 hours",
+                "side_effects": ["Diarrhea", "Allergic reactions", "Yeast infections"],
+                "image": "https://www.drugs.com/images/pills/nlm/131640101/amoxicillin.jpg"
+              },
+              {
+                "id": 5,
+                "name": "Lisinopril",
+                "generic_name": "Lisinopril",
+                "uses": ["High blood pressure", "Heart failure"],
+                "dosage": "10-40 mg once daily",
+                "side_effects": ["Dry cough", "Dizziness", "High potassium"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/lisinopril.jpg"
+              },
+              {
+                "id": 6,
+                "name": "Atorvastatin",
+                "generic_name": "Atorvastatin Calcium",
+                "uses": ["High cholesterol"],
+                "dosage": "10-80 mg once daily",
+                "side_effects": ["Muscle pain", "Liver enzyme increase", "Digestive issues"],
+                "image": "https://www.drugs.com/images/pills/fio/ATV00101/atorvastatin.jpg"
+              },
+              {
+                "id": 7,
+                "name": "Omeprazole",
+                "generic_name": "Omeprazole",
+                "uses": ["Acid reflux", "Stomach ulcers"],
+                "dosage": "20-40 mg once daily",
+                "side_effects": ["Headache", "Diarrhea", "Vitamin B12 deficiency"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/omeprazole.jpg"
+              },
+              {
+                "id": 8,
+                "name": "Metformin",
+                "generic_name": "Metformin Hydrochloride",
+                "uses": ["Type 2 diabetes"],
+                "dosage": "500-1000 mg twice daily",
+                "side_effects": ["Nausea", "Diarrhea", "Lactic acidosis (rare)"],
+                "image": "https://www.drugs.com/images/pills/fio/MET01010/metformin.jpg"
+              },
+              {
+                "id": 9,
+                "name": "Simvastatin",
+                "generic_name": "Simvastatin",
+                "uses": ["High cholesterol"],
+                "dosage": "5-40 mg once daily",
+                "side_effects": ["Muscle pain", "Liver issues", "Digestive problems"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/simvastatin.jpg"
+              },
+              {
+                "id": 10,
+                "name": "Hydrochlorothiazide",
+                "generic_name": "Hydrochlorothiazide",
+                "uses": ["High blood pressure", "Fluid retention"],
+                "dosage": "12.5-50 mg once daily",
+                "side_effects": ["Dehydration", "Low potassium", "Dizziness"],
+                "image": "https://www.drugs.com/images/pills/fio/HCT00201/hydrochlorothiazide.jpg"
+              },
+              {
+                "id": 11,
+                "name": "Losartan",
+                "generic_name": "Losartan Potassium",
+                "uses": ["High blood pressure", "Kidney protection in diabetes"],
+                "dosage": "25-100 mg once daily",
+                "side_effects": ["Dizziness", "High potassium", "Back pain"],
+                "image": "https://www.drugs.com/images/pills/fio/LOR00601/losartan.jpg"
+              },
+              {
+                "id": 12,
+                "name": "Sertraline",
+                "generic_name": "Sertraline Hydrochloride",
+                "uses": ["Depression", "Anxiety", "OCD"],
+                "dosage": "50-200 mg once daily",
+                "side_effects": ["Nausea", "Insomnia", "Sexual dysfunction"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/sertraline.jpg"
+              },
+              {
+                "id": 13,
+                "name": "Ciprofloxacin",
+                "generic_name": "Ciprofloxacin",
+                "uses": ["Bacterial infections", "UTIs", "Respiratory infections"],
+                "dosage": "250-750 mg twice daily",
+                "side_effects": ["Tendon rupture", "Diarrhea", "Sun sensitivity"],
+                "image": "https://www.drugs.com/images/pills/fio/CIP00600/ciprofloxacin.jpg"
+              },
+              {
+                "id": 14,
+                "name": "Diazepam",
+                "generic_name": "Diazepam",
+                "uses": ["Anxiety", "Muscle spasms", "Seizures"],
+                "dosage": "2-10 mg 2-4 times daily",
+                "side_effects": ["Drowsiness", "Dependence", "Confusion"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/diazepam.jpg"
+              },
+              {
+                "id": 15,
+                "name": "Prednisone",
+                "generic_name": "Prednisone",
+                "uses": ["Inflammation", "Allergies", "Autoimmune disorders"],
+                "dosage": "5-60 mg once daily",
+                "side_effects": ["Weight gain", "Mood swings", "High blood sugar"],
+                "image": "https://www.drugs.com/images/pills/fio/PRD01010/prednisone.jpg"
+              },
+              {
+                "id": 16,
+                "name": "Warfarin",
+                "generic_name": "Warfarin Sodium",
+                "uses": ["Blood thinner", "Prevents clots"],
+                "dosage": "1-10 mg once daily (varies)",
+                "side_effects": ["Bleeding risk", "Bruising", "Hair loss"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/warfarin.jpg"
+              },
+              {
+                "id": 17,
+                "name": "Albuterol",
+                "generic_name": "Albuterol Sulfate",
+                "uses": ["Asthma", "Bronchospasm"],
+                "dosage": "1-2 inhalations every 4-6 hours",
+                "side_effects": ["Shakiness", "Fast heartbeat", "Headache"],
+                "image": "https://www.drugs.com/images/pills/fio/ALB02010/albuterol.jpg"
+              },
+              {
+                "id": 18,
+                "name": "Fluoxetine",
+                "generic_name": "Fluoxetine Hydrochloride",
+                "uses": ["Depression", "OCD", "Bulimia"],
+                "dosage": "20-80 mg once daily",
+                "side_effects": ["Insomnia", "Weight changes", "Dry mouth"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/fluoxetine.jpg"
+              },
+              {
+                "id": 19,
+                "name": "Tramadol",
+                "generic_name": "Tramadol Hydrochloride",
+                "uses": ["Moderate pain"],
+                "dosage": "50-100 mg every 4-6 hours",
+                "side_effects": ["Dizziness", "Nausea", "Seizures (high dose)"],
+                "image": "https://www.drugs.com/images/pills/fio/TRA01010/tramadol.jpg"
+              },
+              {
+                "id": 20,
+                "name": "Metoprolol",
+                "generic_name": "Metoprolol Tartrate",
+                "uses": ["High blood pressure", "Heart disease"],
+                "dosage": "25-100 mg twice daily",
+                "side_effects": ["Fatigue", "Slow heartbeat", "Cold hands/feet"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/metoprolol.jpg"
+              },
+              {
+                "id": 21,
+                "name": "Azithromycin",
+                "generic_name": "Azithromycin",
+                "uses": ["Bacterial infections", "STDs", "Pneumonia"],
+                "dosage": "500 mg once daily for 3 days",
+                "side_effects": ["Diarrhea", "Stomach pain", "Headache"],
+                "image": "https://www.drugs.com/images/pills/fio/AZI02010/azithromycin.jpg"
+              },
+              {
+                "id": 22,
+                "name": "Cetirizine",
+                "generic_name": "Cetirizine Hydrochloride",
+                "uses": ["Allergies", "Hay fever"],
+                "dosage": "5-10 mg once daily",
+                "side_effects": ["Drowsiness", "Dry mouth", "Fatigue"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/cetirizine.jpg"
+              },
+              {
+                "id": 23,
+                "name": "Pantoprazole",
+                "generic_name": "Pantoprazole Sodium",
+                "uses": ["GERD", "Stomach ulcers"],
+                "dosage": "20-40 mg once daily",
+                "side_effects": ["Headache", "Diarrhea", "Vitamin B12 deficiency"],
+                "image": "https://www.drugs.com/images/pills/fio/PAN01010/pantoprazole.jpg"
+              },
+              {
+                "id": 24,
+                "name": "Clonazepam",
+                "generic_name": "Clonazepam",
+                "uses": ["Seizures", "Panic disorder"],
+                "dosage": "0.25-2 mg twice daily",
+                "side_effects": ["Drowsiness", "Dependence", "Coordination problems"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/clonazepam.jpg"
+              },
+              {
+                "id": 25,
+                "name": "Doxycycline",
+                "generic_name": "Doxycycline Hyclate",
+                "uses": ["Bacterial infections", "Acne", "Malaria prevention"],
+                "dosage": "100 mg twice daily",
+                "side_effects": ["Sun sensitivity", "Nausea", "Esophageal irritation"],
+                "image": "https://www.drugs.com/images/pills/fio/DOX02010/doxycycline.jpg"
+              },
+              {
+                "id": 26,
+                "name": "Escitalopram",
+                "generic_name": "Escitalopram Oxalate",
+                "uses": ["Depression", "Anxiety"],
+                "dosage": "10-20 mg once daily",
+                "side_effects": ["Nausea", "Insomnia", "Sexual dysfunction"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/escitalopram.jpg"
+              },
+              {
+                "id": 27,
+                "name": "Furosemide",
+                "generic_name": "Furosemide",
+                "uses": ["Fluid retention", "High blood pressure"],
+                "dosage": "20-80 mg once daily",
+                "side_effects": ["Dehydration", "Low potassium", "Dizziness"],
+                "image": "https://www.drugs.com/images/pills/fio/FUR02010/furosemide.jpg"
+              },
+              {
+                "id": 28,
+                "name": "Gabapentin",
+                "generic_name": "Gabapentin",
+                "uses": ["Neuropathic pain", "Seizures"],
+                "dosage": "300-1200 mg 3 times daily",
+                "side_effects": ["Dizziness", "Fatigue", "Swelling"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/gabapentin.jpg"
+              },
+              {
+                "id": 29,
+                "name": "Levothyroxine",
+                "generic_name": "Levothyroxine Sodium",
+                "uses": ["Hypothyroidism"],
+                "dosage": "25-200 mcg once daily",
+                "side_effects": ["Palpitations", "Weight loss", "Insomnia"],
+                "image": "https://www.drugs.com/images/pills/fio/LEV02010/levothyroxine.jpg"
+              },
+              {
+                "id": 30,
+                "name": "Loratadine",
+                "generic_name": "Loratadine",
+                "uses": ["Allergies", "Hay fever"],
+                "dosage": "10 mg once daily",
+                "side_effects": ["Headache", "Dry mouth", "Fatigue"],
+                "image": "https://pillbox.nlm.nih.gov/assets/pill-images/loratadine.jpg"
+              }
+            ]
+          }
+    ],
+    "users": [],
+    "cart": []
+  }
