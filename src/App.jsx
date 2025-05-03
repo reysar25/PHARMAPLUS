@@ -1,47 +1,35 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Products from './pages/Products'
-import ProductDetails from './pages/ProductDetails'
-import Cart from './pages/Cart'
-import Checkout from './pages/Checkout'
-import Profile from './pages/Profile'
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
+import React from 'react';
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route,
+  Navigate  // Add this for redirect option
+} from 'react-router-dom';
+import Products from './pages/Products';
+import ProductDetails from './pages/ProductDetails';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+import Profile from './pages/Profile';
+import Navbar from './Components/Navbar';
+import Home from './pages/Home'; // Create this component or use redirect
 
-function App() {
-  const { isAuthenticated } = useAuth();
-
+export default function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow container mx-auto px-4 py-8">
+    <Router future={{
+      v7_startTransition: true,
+      v7_relativeSplatPath: true
+    }}>
+      <div className="min-h-screen bg-gray-100">
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} /> {/* or <Navigate to="/products" /> */}
           <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductDetails />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
-          <Route 
-            path="/checkout" 
-            element={isAuthenticated ? <Checkout /> : <Login />} 
-          />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route 
-            path="/profile" 
-            element={isAuthenticated ? <Profile /> : <Login />} 
-          />
-          <Route path="/order-success" element={<OrderSuccess />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
-      </main>
-      <Footer />
-    </div>
+      </div>
+    </Router>
   );
 }
-
-useEffect(() => {
-  fetch("http://localhost:3001/drugs")
-    .then(res => res.json())
-    .then(data => setDrugs(data));
-}, []);
-
-export default App
